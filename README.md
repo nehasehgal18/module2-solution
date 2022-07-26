@@ -1,2 +1,139 @@
 # module2-solution
 Assignment 2 Module
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Assignment 2 </title>
+    <link rel = "stylesheet"   href = "module2-solutioncss.css">
+  </head>
+  <style>
+
+    *{
+  box-sizing: border-box;
+}
+h1 { color:brown;
+    text-align: center;
+}
+p { border:2px solid black;
+  background-color: pink;
+  width: 90%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Brush Script MT', cursive;
+  color: purple;
+  padding: 20px;
+  padding-top: 50px;
+  border: 3px solid black;
+}
+
+#container{
+  position: relative;:
+}
+#p1 {
+  background-color: darkblue;
+  position: absolute;
+  color: white;
+  top: 0;
+  right: 24px;
+  font-weight: bold;
+  height: 35px;
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial;
+
+
+}
+
+#p2 {
+  background-color: brown ;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 24px;
+  font-weight: bold;
+  height: 35px;
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial;
+}
+
+  #p3 {
+   background-color: blueviolet;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 24px;
+    font-weight: bold;
+    height: 35px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial;
+
+}
+
+.row { width: 100%;
+
+}
+
+
+@media screen and (min-width: 992px) {
+  .col-lg-4 {
+  float: left;
+
+  }
+  .col-lg-4 {
+    width: 33%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+  .col-md-6, .col-md-12{
+  float: left;
+
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .col-sm-12 {
+  float: left;
+
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+</style>
+  <body>
+      <h1>" Our Menu "</h1>
+      <div class = "row">
+    <div class = "col-lg-4 col-md-6 col-sm-12" id = "container">
+      <p>There are two different strategies I would use to investigate the claim that KFC is no longer Kentucky Fried Chicken because they simply use genetically manipulated chicken-like organisms. My first strategy would be to investigate the reasoning behind the perceived brand name change. I would seek out and interview KFC officials and marketing officials in order to ask them the reasoning behind the brand name change, making sure to record the interview to receive information from a direct source. I would also research copyright and trademark data as available, in addition to press releases and corporate data, for any perceived name change in the KFC brand. Ideally, this line of questioning would clear up the veracity of whether or not KFC had even changed their name specifically because they were not allowed to say ‘chicken’ anymore, particularly by the government.<p id = p1>'Chicken'</p>
+    </div>
+    <div class = "col-lg-4 col-md-6 col-sm-12" id = "container">
+      <p>One of the main objectives of cattle rearing is to obtain meat or beef. Beef cattle are much more widely distributed than dairy cattle because they are harder and can tolerate wider range of physical and climatic conditions. 
+
+        They can survive on sparse pasturage. Beef cattle rearing are also the means of livelihood for thousands of people in many areas of Asia and Africa.
+
+While in many countries like Argentina, Australia, New Zealand it is done for the commercial purpose. Due to the introduction of refrigeration in the 1880s, the international trade in beef expanded rapidly.
+
+Chilled meat is transported in cold storage chambers at a temperature just below freezing point, so that it arrives in the consuming countries in fresh state. There is a consid­erable trade in corned beef (canned, cooked meat), beef extracts, ox-tongues and other prepared and cooked canned beef products.</p><p id = p2>'Beef'</p>
+    </div>
+    <div class = "col-lg-4 col-md-12 col-sm-12" id = "container">
+      <p>It is generally accepted that sushi is symbol of Japanese eating style that is known worldwide. It is the popular dishes not only in Japan but also outside of Japan as, Thailand. The history of sushi is interesting. Even if Sushi is one of the representative foods of Japan today, but its origin is found in China around the 4th century. Originally, sushi referred to fermenting fish with salt and rice which was influenced from Thai and Loa farmers. In contrast, sushi in modern times refers to the rice, not the fish. Japanese and Thai have rather same in eating culture because fish and rice is the main ingredients in their dishes. In Thailand, sushi is available in many place such as Japanese restaurant, supermarket or even in fair market because of popularity in all ages. However, some sushi Thai lovers do not know about the types of sushi, the health effect of sushi and eating tip.</p><p id = p3>'Sushi'</p>
+    </div>
+  </div>
+  </body>
+</html>
